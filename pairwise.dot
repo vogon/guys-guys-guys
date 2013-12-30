@@ -1,0 +1,23 @@
+digraph {
+	"the guys" -> "Hey guys" [label="0.998"];
+	"the guys" -> "Python guy" [label="0.954"];
+	"the guys" -> "Java guys" [label="0.982"];
+	"the guys" -> "good guy" [label="0.95"];
+	"the guys" -> "Those guys" [label="0.994"];
+	"the guys" -> "Erlang guy" [label="0.941"];
+	"Python guy" -> "Hey guys" [label="0.997"];
+	"Python guy" -> "Java guys" [label="0.983"];
+	"Python guy" -> "Those guys" [label="0.987"];
+	"Java guys" -> "Hey guys" [label="0.998"];
+	"Java guys" -> "Those guys" [label="0.98"];
+	"good guy" -> "Hey guys" [label="0.995"];
+	"good guy" -> "Java guys" [label="0.907"];
+	"good guy" -> "Those guys" [label="0.971"];
+	"Those guys" -> "Hey guys" [label="0.994"];
+	"Erlang guy" -> "Hey guys" [label="0.999"];
+	"Erlang guy" -> "the guys" [label="0.928"];
+	"Erlang guy" -> "Python guy" [label="0.986"];
+	"Erlang guy" -> "Java guys" [label="0.991"];
+	"Erlang guy" -> "good guy" [label="0.959"];
+	"Erlang guy" -> "Those guys" [label="0.997"];
+}
